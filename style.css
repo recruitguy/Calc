@@ -1,0 +1,59 @@
+body, html{
+  background-color: #9b460a;
+  align-items: stretch;
+  height: 100%;
+}
+
+
+/*Style for the top part of the site*/ 
+.header {
+  color: white;
+  background-color:  #9b460a;
+  text-align: center;
+  border: 5px solid #833b09;
+  }
+
+
+/*Style for the biggest element of the site, which is on the right under the header*/
+.main {
+  float: left, top;
+  color: white;
+  text-align: center;
+  display: flex justify-content: flex-start; ;
+  align-items: stretch;
+  background-position: top left;
+  background-color:  #9b460a;
+  border: 8px solid #833b09;
+  height: 100%;
+}
+
+
+/*Style for the container, in which iframe element is located. I made it a separate style to add borders behind the iframe, and not inside of it.*/
+.leftcontainer {
+  float: left;
+  color: white;
+  border: 8px solid #833b09;
+  background-color: #9b460a;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+/*Style for the iframe element, which contains another web-page. I made this to stretch the iframe vertically and to remove default border.*/
+.leftiframe {
+  color: white;
+  border: 0;
+  display: flex justify-content: flex-start; ;
+  align-items: stretch;
+  height: 100%;
+}
+
+
+/*Style for the web-page inside iframe itself. This is the main reason on why i started writing comments, since i initially thought that this part of the code is useless.*/
+.sidemenu {
+  color: white;
+  padding: 10px;
+  background-color: #9b460a;
+  margin: 0;
+}
