@@ -22,12 +22,8 @@ body, html{
   text-align: center;
   border: 8px solid #833b09;
   height: 100%;
+  width: 90px;
   font-size: 50px;
-  margin: 0;
-  padding: 0;
-  padding-left: 15px;
-  padding-right: 15px;
-
   }
 
 
@@ -46,7 +42,7 @@ body, html{
 
 
 /*Style for the container, in which iframe element is located. I made it a separate style to add borders behind the iframe, and not inside of it.*/
-.leftcontainer {
+.leftContainer {
   float: left;
   color: white;
   border: 8px solid #833b09;
