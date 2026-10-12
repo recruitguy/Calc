@@ -10,7 +10,24 @@ body, html{
   color: white;
   background-color:  #9b460a;
   text-align: center;
-  border: 5px solid #833b09;
+  border: 8px solid #833b09;
+  }
+
+
+/*Style for the burger button of the site*/ 
+  .sidemenuButton {
+  float: left;
+  color: white;
+  background-color:  #9b460a;
+  text-align: center;
+  border: 8px solid #833b09;
+  height: 100%;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+
   }
 
 
