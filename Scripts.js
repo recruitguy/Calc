@@ -1,9 +1,11 @@
-function openSidebar() {
-  document.getElementById("leftContainer").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-}
+let x = 0;
 
-function closeSidebar() {
-  document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
+function sidebar() {
+    if (x === 0) {
+        document.getElementById("leftiframe").style.width = "250px";
+        x = 1;
+    } else {
+        document.getElementById("leftiframe").style.width = "0";
+        x = 0;
+    }
 }

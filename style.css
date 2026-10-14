@@ -19,11 +19,19 @@ body, html{
   float: left;
   color: white;
   background-color:  #9b460a;
-  text-align: center;
   border: 8px solid #833b09;
+  text-align: center;
   height: 100%;
   width: 90px;
   font-size: 50px;
+  cursor: pointer;
+  }
+
+
+/*Style for when a mouse is hovering above button*/
+  .sidemenuButton:hover {
+    background-color: #9b380a;
+    border: 8px solid #832709;
   }
 
 
@@ -60,6 +68,7 @@ body, html{
   display: flex justify-content: flex-start; ;
   align-items: stretch;
   height: 100%;
+  width: 0;
 }
 
 
