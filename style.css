@@ -1,7 +1,7 @@
 body, html{
   background-color: #7e3c0e;
   align-items: stretch;
-  height: 100%;
+  height: 92%;
 }
 
 
@@ -11,6 +11,7 @@ body, html{
   background-color:  #7e3c0e;
   text-align: center;
   border: 8px solid #502405;
+  height: 10%;
   }
 
 
@@ -19,19 +20,19 @@ body, html{
   float: left;
   color: white;
   background-color:  #7e3c0e;
-  border: 8px solid #502405;
+  border: 0;
   text-align: center;
   height: 100%;
   width: 90px;
-  font-size: 50px;
+  font-size: 45px;
   cursor: pointer;
   }
 
 
 /*Style for when a mouse is hovering above button*/
   .sidemenuButton:hover {
-    background-color: #9b380a;
-    border: 8px solid #832709;
+    background-color: #6b330c;
+    border: 0;
   }
 
 
@@ -68,6 +69,7 @@ body, html{
   display: flex justify-content: flex-start; ;
   align-items: stretch;
   height: 100%;
+  width: 0;
 }
 
 
@@ -77,4 +79,23 @@ body, html{
   padding: 10px;
   background-color: #7e3c0e;
   margin: 0;
+}
+
+
+/*The code below is style for the scrollbar of the iframe*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #703002; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b85714; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #915e3b; 
 }

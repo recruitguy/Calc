@@ -1,5 +1,5 @@
 let x = 0;
-
+ 
 function sidebar() {
     if (x === 0) {
         document.getElementById("leftiframe").style.width = "250px";
