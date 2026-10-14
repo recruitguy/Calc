@@ -1,5 +1,5 @@
 body, html{
-  background-color: #9b460a;
+  background-color: #7e3c0e;
   align-items: stretch;
   height: 100%;
 }
@@ -8,9 +8,9 @@ body, html{
 /*Style for the top part of the site*/ 
 .header {
   color: white;
-  background-color:  #9b460a;
+  background-color:  #7e3c0e;
   text-align: center;
-  border: 8px solid #833b09;
+  border: 8px solid #502405;
   }
 
 
@@ -18,8 +18,8 @@ body, html{
   .sidemenuButton {
   float: left;
   color: white;
-  background-color:  #9b460a;
-  border: 8px solid #833b09;
+  background-color:  #7e3c0e;
+  border: 8px solid #502405;
   text-align: center;
   height: 100%;
   width: 90px;
@@ -43,8 +43,8 @@ body, html{
   display: flex justify-content: flex-start; ;
   align-items: stretch;
   background-position: top left;
-  background-color:  #9b460a;
-  border: 8px solid #833b09;
+  background-color:  #7e3c0e;
+  border: 8px solid #502405;
   height: 100%;
 }
 
@@ -53,8 +53,8 @@ body, html{
 .leftContainer {
   float: left;
   color: white;
-  border: 8px solid #833b09;
-  background-color: #9b460a;
+  border: 8px solid #502405;
+  background-color: #7e3c0e;
   margin: 0;
   padding: 0;
   height: 100%;
@@ -68,7 +68,6 @@ body, html{
   display: flex justify-content: flex-start; ;
   align-items: stretch;
   height: 100%;
-  width: 0;
 }
 
 
@@ -76,6 +75,6 @@ body, html{
 .sidemenu {
   color: white;
   padding: 10px;
-  background-color: #9b460a;
+  background-color: #7e3c0e;
   margin: 0;
 }
