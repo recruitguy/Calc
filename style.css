@@ -23,9 +23,9 @@ body, html{
   border: 0;
   text-align: center;
   height: 100%;
-  width: 90px;
   font-size: 45px;
   cursor: pointer;
+  margin-right: 20px;
   }
 
 
